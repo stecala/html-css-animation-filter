@@ -68,3 +68,27 @@
     border-radius: 15px;
     transform: scale(1.5);
 }
+
+.ex-10-icon {
+    animation: load 3s linear infinite;
+}
+@keyframes load {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: spin2 3s linear infinite;
+}
+@keyframes spin2{
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
